@@ -45,6 +45,10 @@
                                 <a class="nav-link" href="./index.php?content=overzicht-studenten">overzicht-studenten<span
                                 class="sr-only">(current)</span></a>
                                 </li>';
+                                echo'<li class="nav-item">
+                                <a class="nav-link" href="./index.php?content=cursus">cursussen<span
+                                class="sr-only">(current)</span></a>
+                                </li>';
                         break;
                 }
         }
