@@ -120,6 +120,24 @@ switch($_GET["alert"])
     </div>';
     header("Refresh: 3; url=./index.php?content=home");
     break;
+    case 'cursus-toegevoegd':
+        echo '<div class="alert alert-success w-50 mx-auto mt-5" text-center role="alert">
+         de cursus is toegevoegd
+    </div>';
+    header("Refresh: 3; url=./index.php?content=cursus");
+    break;
+    case 'cursus-error':
+        echo '<div class="alert alert-danger w-50 mx-auto mt-5" text-center role="alert">
+         er is een fout opgetreden probeer het opnieuw
+    </div>';
+    header("Refresh: 3; url=./index.php?content=cursus_toevoegen");
+    break;
+    case 'cursus-toegevoegd':
+        echo '<div class="alert alert-success w-50 mx-auto mt-5" text-center role="alert">
+         de cursus is met succes verwijderd u wordt doorgestuurd naar de cursus pagina
+    </div>';
+    header("Refresh: 3; url=./index.php?content=cursus");
+    break;
 }
 
 ?>
