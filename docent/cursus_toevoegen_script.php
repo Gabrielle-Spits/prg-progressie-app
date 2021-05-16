@@ -34,7 +34,7 @@ if($result)
 }
 else
 {
-    header("Location: ./index.php?content=message&alert=cursus-error");
+    header("Location: ./index.php?content=message&alert=cursus-update-error");
 }
 
 ?>

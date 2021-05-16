@@ -24,14 +24,14 @@
                 <br>
                 <label class="label" for="semester">semester</label>
                 <br>
-                <select id="semester"  name="semester">
-                    <option value="1">S1</option>
-                    <option value="2">S2</option>
+                <select id="inputSemester"  name="semester" onchange="Semester()">
+                    <option value="s1">S1</option>
+                    <option value="s2">S2</option>
                 </select>
                 <br>
                 <label class="label" for="tijdsloten">periode</label>
                 <br>
-                <select id="periode"  name="periode">
+                <select id="inputPeriod"  name="periode">
                     <option value="1">p1</option>
                     <option value="2">p2</option>
                     <option value="3">p3</option>
